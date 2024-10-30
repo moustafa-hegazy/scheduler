@@ -1,0 +1,118 @@
+[
+  {
+    "id": 1,
+    "number": "B10 F1.11",
+    "capacity": 30,
+    "room_type": "classroom"
+  },
+  {
+    "id": 2,
+    "number": "LAB COE G09",
+    "capacity": 30,
+    "room_type": "computer_lab"
+  },
+  {
+    "id": 3,
+    "number": "LAB COE G08",
+    "capacity": 30,
+    "room_type": "computer_lab"
+  },
+  {
+    "id": 4,
+    "number": "B07 F1.24",
+    "capacity": 30,
+    "room_type": "computer_lab"
+  },
+  {
+    "id": 5,
+    "number": "B10 F1.10",
+    "capacity": 30,
+    "room_type": "classroom"
+  },
+  {
+    "id": 6,
+    "number": "LAB COE F2.17",
+    "capacity": 30,
+    "room_type": "computer_lab"
+  },
+  {
+    "id": 7,
+    "number": "LAB COE F2.16",
+    "capacity": 40,
+    "room_type": "computer_lab"
+  },
+  {
+    "id": 8,
+    "number": "Theater 10",
+    "capacity": 50,
+    "room_type": "classroom"
+  },
+  {
+    "id": 9,
+    "number": "COE F2.13",
+    "capacity": 35,
+    "room_type": "classroom"
+  },
+  {
+    "id": 10,
+    "number": "Yellow Hall",
+    "capacity": 30,
+    "room_type": "classroom"
+  }
+  ,
+  {
+    "id": 10,
+    "number": "LAB B18 G14",
+    "capacity": 30,
+    "room_type": "classroom"
+  },
+  {
+    "id": 10,
+    "number": "Theater B18 G22",
+    "capacity": 30,
+    "room_type": "classroom"
+  },
+  {
+    "id": 10,
+    "number": "LAB B18 G05",
+    "capacity": 30,
+    "room_type": "computer_lab"
+  },
+  {
+    "id": 10,
+    "number": "LAB B18 G01",
+    "capacity": 30,
+    "room_type": "computer_lab"
+  },
+  {
+    "id": 10,
+    "number": "B18 G7",
+    "capacity": 30,
+    "room_type": "classroom"
+  },
+  {
+    "id": 10,
+    "number": "B18 G16",
+    "capacity": 30,
+    "room_type": "computer_lab"
+  },
+  {
+    "id": 10,
+    "number": "B10 F1.07",
+    "capacity": 30,
+    "room_type": "classroom"
+  },
+  {
+    "id": 10,
+    "number": "B10 F1.08",
+    "capacity": 30,
+    "room_type": "classroom"
+  },
+  {
+    "id": 10,
+    "number": "Green Hall",
+    "capacity": 30,
+    "room_type": "classroom"
+  }
+  
+]
