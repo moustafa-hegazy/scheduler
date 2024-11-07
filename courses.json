@@ -13,7 +13,7 @@
     "name": "AID 411 BIG Data Analytics & Visualization (TUT)",
     "required_room_type": "classroom",
     "allowed_instructors": [12, 5],
-    "session_type": "Lecture"
+    "session_type": "Tutorial"
   },
   {
     "id": 3,
@@ -37,7 +37,7 @@
     "name": "AID 428 New Trends in AI (TUT)",
     "required_room_type": "classroom",
     "allowed_instructors": [9, 7],
-    "session_type": "Lecture"
+    "session_type": "Tutorial"
   },
   {
     "id": 6,
@@ -61,7 +61,7 @@
     "name": "AID 427 New Trends in Data Science (TUT)",
     "required_room_type": "classroom",
     "allowed_instructors": [8, 12],
-    "session_type": "Lecture"
+    "session_type": "Tutorial"
   },
   {
     "id": 9,
@@ -85,7 +85,7 @@
     "name": "AID 413 Data Security (TUT)",
     "required_room_type": "classroom",
     "allowed_instructors": [10, 6, 11],
-    "session_type": "Lecture"
+    "session_type": "Tutorial"
   },
   {
     "id": 12,
@@ -93,7 +93,7 @@
     "name": "AID 413 Data Security (LAB)",
     "required_room_type": "computer_lab",
     "allowed_instructors": [11, 10],
-    "session_type": "Lecture"
+    "session_type": "Lab"
   },
   {
     "id": 13,
@@ -109,7 +109,7 @@
     "name": "AID 321 Machine Learning (TUT)",
     "required_room_type": "classroom",
     "allowed_instructors": [13, 9],
-    "session_type": "Lecture"
+    "session_type": "Tutorial"
   },
   {
     "id": 15,
