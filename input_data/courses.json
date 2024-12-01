@@ -1,0 +1,178 @@
+[
+  {
+    "id": 1,
+    "code": "CNC 311",
+    "name": "Computer Networks (LEC)",
+    "required_room_type": "classroom",
+    "allowed_instructors": [2],
+    "session_type": "Lecture"
+  },
+  {
+    "id": 2,
+    "code": "CNC 311",
+    "name": "Computer Networks (LAB)",
+    "required_room_type": "computer_lab",
+    "allowed_instructors": [21,17,11,8],
+    "session_type": "Lab"
+  },
+  {
+    "id": 4,
+    "code": "CSC 317",
+    "name": "Computer Graphics and Visualization (LEC)",
+    "required_room_type": "classroom",
+    "allowed_instructors": [4],
+    "session_type": "Lecture"
+  },
+  {
+    "id": 5,
+    "code": "CSC 317",
+    "name": "Computer Graphics and Visualization (LAB)",
+    "required_room_type": "computer_lab",
+    "allowed_instructors": [9,8],
+    "session_type": "Lab"
+  },
+  {
+    "id": 7,
+    "code": "AID 311",
+    "name": "Mathematics of Data Science (LEC)",
+    "required_room_type": "classroom",
+    "allowed_instructors": [6],
+    "session_type": "Lecture"
+  },
+  {
+    "id": 8,
+    "code": "AID 311",
+    "name": "Mathematics of Data Science (LAB)",
+    "required_room_type": "computer_lab",
+    "allowed_instructors": [15,14],
+    "session_type": "Lab"
+  },
+  {
+    "id": 9,
+    "code": "AID 311",
+    "name": "Mathematics of Data Science (TUT)",
+    "required_room_type": "classroom",
+    "allowed_instructors": [15],
+    "session_type": "Tutorial"
+  },
+  {
+    "id": 10,
+    "code": "BIF 311",
+    "name": "Human Biology (LEC)",
+    "required_room_type": "classroom",
+    "allowed_instructors": [19],
+    "session_type": "Lecture"
+  },
+  {
+    "id": 11,
+    "code": "BIF 311",
+    "name": "Human Biology (LAB)",
+    "required_room_type": "computer_lab",
+    "allowed_instructors": [18],
+    "session_type": "Lab"
+  },
+  {
+    "id": 12,
+    "code": "BIF 311",
+    "name": "Human Biology (TUT)",
+    "required_room_type": "classroom",
+    "allowed_instructors": [18],
+    "session_type": "Tutorial"
+  },
+  {
+    "id": 13,
+    "code": "CNC 312",
+    "name": "Foundations of Information Systems (LEC)",
+    "required_room_type": "classroom",
+    "allowed_instructors": [4],
+    "session_type": "Lecture"
+  },
+  {
+    "id": 14,
+    "code": "CNC 312",
+    "name": "Foundations of Information Systems (LAB)",
+    "required_room_type": "computer_lab",
+    "allowed_instructors": [20,11],
+    "session_type": "Lab"
+  },
+  {
+    "id": 15,
+    "code": "CNC 312",
+    "name": "Foundations of Information Systems (TUT)",
+    "required_room_type": "classroom",
+    "allowed_instructors": [11,20],
+    "session_type": "Tutorial"
+  },
+  {
+    "id": 16,
+    "code": "AID 312",
+    "name": "Intelligent Systems (LEC)",
+    "required_room_type": "classroom",
+    "allowed_instructors": [3],
+    "session_type": "Lecture"
+  },
+  {
+    "id": 17,
+    "code": "AID 312",
+    "name": "Intelligent Systems (LAB)",
+    "required_room_type": "computer_lab",
+    "allowed_instructors": [16,10,7],
+    "session_type": "Lab"
+  },
+  {
+    "id": 19,
+    "code": "CSC 314",
+    "name": "Software Modeling and Analysis (LEC)",
+    "required_room_type": "classroom",
+    "allowed_instructors": [5],
+    "session_type": "Lecture"
+  },
+  {
+    "id": 20,
+    "code": "CSC 314",
+    "name": "Software Modeling and Analysis (LAB)",
+    "required_room_type": "computer_lab",
+    "allowed_instructors": [9],
+    "session_type": "Lab"
+  },
+  {
+    "id": 21,
+    "code": "CSC 314",
+    "name": "Software Modeling and Analysis (TUT)",
+    "required_room_type": "classroom",
+    "allowed_instructors": [9],
+    "session_type": "Tutorial"
+  },
+  {
+    "id": 22,
+    "code": "CSC 315",
+    "name": "Seminar and Project-Based Learning on CSIT (LEC)",
+    "required_room_type": "classroom",
+    "allowed_instructors": [1],
+    "session_type": "Lecture"
+  },
+  {
+    "id": 23,
+    "code": "CSC 315",
+    "name": "Seminar and Project-Based Learning on CSIT (LAB)",
+    "required_room_type": "computer_lab",
+    "allowed_instructors": [20],
+    "session_type": "Lab"
+  },
+  {
+    "id": 24,
+    "code": "CNC 314",
+    "name": "Database Systems (LEC)",
+    "required_room_type": "classroom",
+    "allowed_instructors": [5],
+    "session_type": "Lecture"
+  },
+  {
+    "id": 25,
+    "code": "CNC 314",
+    "name": "Database Systems (LAB)",
+    "required_room_type": "computer_lab",
+    "allowed_instructors": [13,12],
+    "session_type": "Lab"
+  }
+]
