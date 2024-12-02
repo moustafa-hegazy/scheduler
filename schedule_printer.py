@@ -53,7 +53,8 @@ def print_schedule(timetable: TimeTable, classes: List[Class]):
             'group': f"{group.major} Year {group.year} {group.group_name}-{group.section}",
             'room': room.number,
             'instructor': instructor.name,
-            'instructor_type': instructor.type
+            'instructor_type': instructor.type,
+            'year': group.year
         })
 
     # Ensure the output directory exists
