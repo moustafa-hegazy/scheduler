@@ -10,52 +10,12 @@
     "course_ids": [1,2,4,5,16,17,24,25,13,14,15]
   },
   {
-    "id": 2,
-    "major": "CSIT",
-    "year": 3,
-    "specialization": "CNC",
-    "group_name": "CNC2",
-    "section": "2",
-    "size": 25,
-    "course_ids": [1,2,4,5,16,17,24,25,13,14,15]
-  },
-  {
-    "id": 3,
-    "major": "CSIT",
-    "year": 3,
-    "specialization": "CNC",
-    "group_name": "CNC3",
-    "section": "3",
-    "size": 25,
-    "course_ids": [1,2,4,5,16,17,24,25,13,14,15]
-  },
-  {
     "id": 4,
     "major": "CSIT",
     "year": 3,
     "specialization": "AID",
     "group_name": "AID1",
     "section": "1",
-    "size": 25,
-    "course_ids": [1,2,4,5,16,17,24,25,7,8,9]
-  },
-  {
-    "id": 5,
-    "major": "CSIT",
-    "year": 3,
-    "specialization": "AID",
-    "group_name": "AID2",
-    "section": "2",
-    "size": 25,
-    "course_ids": [1,2,4,5,16,17,24,25,7,8,9]
-  },
-  {
-    "id": 6,
-    "major": "CSIT",
-    "year": 3,
-    "specialization": "AID",
-    "group_name": "AID3",
-    "section": "3",
     "size": 25,
     "course_ids": [1,2,4,5,16,17,24,25,7,8,9]
   },

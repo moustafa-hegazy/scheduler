@@ -466,7 +466,7 @@ class GeneticAlgorithm:
             قائمة بالمحاضرات اللي بتمثل احسن جدول وصلنا له
         """
         # Initialize the population with random individuals
-        with Pool(processes=12) as pool:
+        with Pool(processes=8) as pool:
             # Create a pool of processes to generate individuals in parallel
             population = pool.map(lambda _: self.create_individual(), range(self.population_size))
          # Iterate over generations
@@ -474,7 +474,7 @@ class GeneticAlgorithm:
         for generation in range(self.max_generations):
             # Calculate fitness scores for all individuals in the population
             # بنحسب الفتنس لكل الافراد في السكان
-            with Pool(processes=12) as pool:
+            with Pool(processes=8) as pool:
                 fitness_scores = pool.map(self.calculate_fitness, population)
 
             # Find the best fitness score in the current generation
