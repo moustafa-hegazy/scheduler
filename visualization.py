@@ -2,7 +2,7 @@ import json
 import pandas as pd
 import datetime
 
-json_file_path = '/Users/moustafahegazy/Documents/GitHub/scheduler/grad_proj/output_data/schedule_output.json'
+json_file_path = r"C:\Users\mmheg\Downloads\Archive (2)\output_data\schedule_output.json"
 
 
 with open(json_file_path, 'r') as f:
@@ -81,7 +81,7 @@ html_content += '''
 '''
 
 
-html_file_path = '/Users/moustafahegazy/Documents/GitHub/scheduler/grad_proj/output_data/schedule_output.html'
+html_file_path = r"C:\Users\mmheg\Downloads\Archive (2)\output_data\schedule_output.html"
 
 with open(html_file_path, 'w') as f:
     f.write(html_content)

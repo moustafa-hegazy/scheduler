@@ -1,6 +1,4 @@
-# timetable.py
-
-from data_models import Room, Instructor, Course, Group, TimeRange
+from data_models import Room, Instructor, Course, Group, Class, TimeRange
 from typing import List
 import json
 import os
@@ -48,7 +46,9 @@ class TimeTable:
         for instr in instructors_data:
             availability = {}
             for day_str, times in instr['availability'].items():
-                availability[day_str] = [TimeRange(t['start_time'], t['end_time']) for t in times]
+                availability[day_str] = [
+                    TimeRange(t['start_time'], t['end_time']) for t in times
+                ]
             self.instructors.append(Instructor(
                 id=instr['id'],
                 name=instr['name'],
@@ -56,7 +56,7 @@ class TimeTable:
                 availability=availability
             ))
 
-        # Initialize Courses
+        # Initialize Courses (now including duration)
         for course in courses_data:
             self.courses.append(Course(
                 id=course['id'],
@@ -64,7 +64,8 @@ class TimeTable:
                 name=course['name'],
                 required_room_type=course['required_room_type'],
                 allowed_instructors=course['allowed_instructors'],
-                session_type=course['session_type']
+                session_type=course['session_type'],
+                duration=course['duration']  # Load the duration here
             ))
 
         # Initialize Groups
