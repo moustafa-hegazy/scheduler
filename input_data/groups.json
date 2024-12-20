@@ -1,42 +1,79 @@
 [
   {
-    "id": 1,
+    "id": 4.0,
     "major": "CSIT",
     "year": 3,
-    "specialization": "CNC",
-    "group_name": "CNC1",
-    "section": "1",
-    "size": 25,
-    "course_ids": [1,2,4,5,16,17,24,25,13,14,15]
+    "specialization": "AID 1",
+    "group_name": "AID 1",
+    "section": "0", 
+    "comment": "when section has a value of 0, it means that this is the main group else its a section(sub group) ",
+    "size": 75,
+    "course_ids": [1,4,7,10,13]
   },
   {
-    "id": 4,
+    "id": 4.1,
+    "major": "CSIT",
+    "year": 3,
+    "specialization": "AID 1",
+    "group_name": "AID 1",
+    "section": "1",
+    "comment": "when section has a value of 0, it means that this is the main group else its a section(sub group) ",
+    "size": 25,
+    "course_ids": [2,3,5,6,8,9,11,12,14,15]
+  },
+  {
+    "id": 4.2,
     "major": "CSIT",
     "year": 3,
     "specialization": "AID",
-    "group_name": "AID1",
-    "section": "1",
+    "group_name": "AID 1",
+    "section": "2",
+    "comment": "when section has a value of 0, it means that this is the main group else its a section(sub group) ",
     "size": 25,
-    "course_ids": [1,2,4,5,16,17,24,25,7,8,9]
+    "course_ids": [2,3,5,6,8,9,11,12,14,15]
   },
   {
-    "id": 7,
+    "id": 4.3,
     "major": "CSIT",
     "year": 3,
-    "specialization": "CSC",
-    "group_name": "CSC",
-    "section": "1",
+    "specialization": "AID",
+    "group_name": "AID 1" ,
+    "section": "3",
+    "comment": "when section has a value of 0, it means that this is the main group else its a section(sub group) ",
     "size": 25,
-    "course_ids": [1,2,4,5,16,17,24,25,19,20,21]
+    "course_ids": [2,3,5,6,8,9,11,12,14,15]
   },
   {
-    "id": 8,
+    "id": 5.0,
     "major": "CSIT",
     "year": 3,
-    "specialization": "BIF",
-    "group_name": "BIF",
+    "specialization": "AID",
+    "group_name": "AID 2",
+    "section": "0",
+    "comment": "when section has a value of 0, it means that this is the main group else its a section(sub group) ",
+    "size": 50,
+    "course_ids": [1,4,7,10,13]
+  },
+  {
+    "id": 5.1,
+    "major": "CSIT",
+    "year": 3,
+    "specialization": "AID",
+    "group_name": "AID 2",
     "section": "1",
+    "comment": "when section has a value of 0, it means that this is the main group else its a section(sub group) ",
     "size": 25,
-    "course_ids": [1,2,4,5,16,17,24,25,10,11,12,22,23]
+    "course_ids": [2,3,5,6,8,9,11,12,14,15]
+  },
+  {
+    "id": 5.2,
+    "major": "CSIT",
+    "year": 3,
+    "specialization": "AID",
+    "group_name": "AID 2",
+    "section": "2",
+    "comment": "when section has a value of 0, it means that this is the main group else its a section(sub group)",
+    "size": 25,
+    "course_ids": [2,3,5,6,8,9,11,12,14,15]
   }
 ]

@@ -1,233 +1,124 @@
 [
   {
     "id": 1,
-    "name": "Dr. Mostafa soliman",
+    "name": "Dr. Ahmed Bayoumi",
     "type": "Professor",
     "availability": {
-      "Sunday": [{"start_time": "08:00", "end_time": "17:00"}],
-      "Monday": [{"start_time": "08:00", "end_time": "17:00"}],
-      "Wednesday": [{"start_time": "08:00", "end_time": "17:00"}],
-      "Thursday": [{"start_time": "08:00", "end_time": "17:00"}]
+      "Tuesday": [1,2,3,4]
     }
   },
   {
     "id": 2,
-    "name": "Dr. Samir Ahmed",
+    "name": "Dr. Marghany Hassan",
     "type": "Professor",
     "availability": {
-      "Sunday": [{"start_time": "08:00", "end_time": "17:00"}],
-      "Monday": [{"start_time": "08:00", "end_time": "17:00"}],
-      "Wednesday": [{"start_time": "08:00", "end_time": "17:00"}],
-      "Thursday": [{"start_time": "08:00", "end_time": "17:00"}]
+      "Tuesday": [5,6,7,8],
+      "Thursday": [5,6,7,8]
     }
   },
   {
     "id": 3,
-    "name": "Dr. Ahmed Bayumi",
+    "name": "Dr. Ahmed Arafa",
     "type": "Professor",
     "availability": {
-      "Sunday": [{"start_time": "08:00", "end_time": "17:00"}],
-      "Monday": [{"start_time": "08:00", "end_time": "17:00"}],
-      "Wednesday": [{"start_time": "08:00", "end_time": "17:00"}],
-      "Thursday": [{"start_time": "08:00", "end_time": "17:00"}]
+      "Tuesday": [5,6,7,8]
     }
   },
   {
     "id": 4,
-    "name": "Dr. Reda Basyuni",
+    "name": "Dr. Samir",
     "type": "Professor",
     "availability": {
-      "Sunday": [{"start_time": "08:00", "end_time": "17:00"}],
-      "Monday": [{"start_time": "08:00", "end_time": "17:00"}],
-      "Wednesday": [{"start_time": "08:00", "end_time": "17:00"}],
-      "Thursday": [{"start_time": "08:00", "end_time": "17:00"}]
+      "Wednesday": [3,4,5,6]
     }
   },
   {
     "id": 5,
-    "name": "Dr. Mohamed Issa",
-    "type": "Professor",
+    "name": "Eng. Alaa Essam",
+    "type": "TA",
     "availability": {
-      "Sunday": [{"start_time": "08:00", "end_time": "17:00"}],
-      "Monday": [{"start_time": "08:00", "end_time": "17:00"}],
-      "Wednesday": [{"start_time": "08:00", "end_time": "17:00"}],
-      "Thursday": [{"start_time": "08:00", "end_time": "17:00"}]
+      "Sunday": [1,3,4,5,6,7,8],
+      "Thursday": [1,2,3,4,7,8]
     }
   },
   {
     "id": 6,
-    "name": "Prof Marghany Hassan",
-    "type": "Professor",
+    "name": "Eng: Fatma Elsayed",
+    "type": "TA",
     "availability": {
-      "Sunday": [{"start_time": "08:00", "end_time": "17:00"}],
-      "Monday": [{"start_time": "08:00", "end_time": "17:00"}],
-      "Wednesday": [{"start_time": "08:00", "end_time": "17:00"}],
-      "Thursday": [{"start_time": "08:00", "end_time": "17:00"}]
+      "Sunday": [1,2,3,4]
     }
   },
   {
     "id": 7,
-    "name": "Eng. Saeed Zalat",
+    "name": "Eng.Menna Magdy",
     "type": "TA",
     "availability": {
-      "Sunday": [{"start_time": "08:00", "end_time": "17:00"}],
-      "Monday": [{"start_time": "08:00", "end_time": "17:00"}],
-      "Wednesday": [{"start_time": "08:00", "end_time": "17:00"}],
-      "Thursday": [{"start_time": "08:00", "end_time": "17:00"}]
+      "Wednesday": [7,8],
+      "Thursday": [4]
     }
   },
   {
     "id": 8,
-    "name": "Eng.Nada Ahmed",
+    "name": "Eng. Yara Gaber",
     "type": "TA",
     "availability": {
-      "Sunday": [{"start_time": "08:00", "end_time": "17:00"}],
-      "Monday": [{"start_time": "08:00", "end_time": "17:00"}],
-      "Wednesday": [{"start_time": "08:00", "end_time": "17:00"}],
-      "Thursday": [{"start_time": "08:00", "end_time": "17:00"}]
+      "Sunday": [5,7],
+      "Wednesday": [1,2,3,4,7,8]
     }
   },
   {
     "id": 9,
-    "name": "Eng.Menna magdy",
+    "name": "Eng. Salma Alashry",
     "type": "TA",
     "availability": {
-      "Sunday": [{"start_time": "08:00", "end_time": "17:00"}],
-      "Monday": [{"start_time": "08:00", "end_time": "17:00"}],
-      "Wednesday": [{"start_time": "08:00", "end_time": "17:00"}],
-      "Thursday": [{"start_time": "08:00", "end_time": "17:00"}]
+      "Sunday": [8],
+      "Wednesday": [1,2,5,6,7,8],
+      "Thursday": [1,2,3,4,5,6,7,8]
     }
   },
   {
     "id": 10,
-    "name": "Eng.Salma Waleed",
+    "name": "Eng.Mariam Rashad",
     "type": "TA",
     "availability": {
-      "Sunday": [{"start_time": "08:00", "end_time": "17:00"}],
-      "Monday": [{"start_time": "08:00", "end_time": "17:00"}],
-      "Wednesday": [{"start_time": "08:00", "end_time": "17:00"}],
-      "Thursday": [{"start_time": "08:00", "end_time": "17:00"}]
+      "Sunday": [3,4],
+      "Tuesday": [1,2,3,4],
+      "Thursday": [1,2,3,4,5,6]
     }
   },
   {
     "id": 11,
-    "name": "Eng. Yara Gaber ",
+    "name": "Eng.Rana Mohamed",
     "type": "TA",
     "availability": {
-      "Sunday": [{"start_time": "08:00", "end_time": "17:00"}],
-      "Monday": [{"start_time": "08:00", "end_time": "17:00"}],
-      "Wednesday": [{"start_time": "08:00", "end_time": "17:00"}],
-      "Thursday": [{"start_time": "08:00", "end_time": "17:00"}]
+      "Tuesday": [1,2,3,4],
+      "Thursday": [1,2,3,4,7,8]
     }
   },
   {
     "id": 12,
-    "name": "Eng. Salma Alashry",
+    "name": "Eng. Zahwa Khaled",
     "type": "TA",
     "availability": {
-      "Sunday": [{"start_time": "08:00", "end_time": "17:00"}],
-      "Monday": [{"start_time": "08:00", "end_time": "17:00"}],
-      "Wednesday": [{"start_time": "08:00", "end_time": "17:00"}],
-      "Thursday": [{"start_time": "08:00", "end_time": "17:00"}]
+      "Sunday": [3,4,8],
+      "Wednesday": [1,2,3,4]
     }
   },
   {
     "id": 13,
-    "name": "Eng. Alaa Essam ",
+    "name": "Eng. Hend Adel",
     "type": "TA",
     "availability": {
-      "Sunday": [{"start_time": "08:00", "end_time": "17:00"}],
-      "Monday": [{"start_time": "08:00", "end_time": "17:00"}],
-      "Wednesday": [{"start_time": "08:00", "end_time": "17:00"}],
-      "Thursday": [{"start_time": "08:00", "end_time": "17:00"}]
+      "Wednesday": [1,2,3,4,5,6,7,8]
     }
   },
   {
     "id": 14,
-    "name": "Eng:MennaAllah Mahmoud",
+    "name": "Eng. Heba Abdelkader",
     "type": "TA",
     "availability": {
-      "Sunday": [{"start_time": "08:00", "end_time": "17:00"}],
-      "Monday": [{"start_time": "08:00", "end_time": "17:00"}],
-      "Wednesday": [{"start_time": "08:00", "end_time": "17:00"}],
-      "Thursday": [{"start_time": "08:00", "end_time": "17:00"}]
-    }
-  },
-  {
-    "id": 15,
-    "name": "Eng:Maria",
-    "type": "TA",
-    "availability": {
-      "Sunday": [{"start_time": "08:00", "end_time": "17:00"}],
-      "Monday": [{"start_time": "08:00", "end_time": "17:00"}],
-      "Wednesday": [{"start_time": "08:00", "end_time": "17:00"}],
-      "Thursday": [{"start_time": "08:00", "end_time": "17:00"}]
-    }
-  },
-  {
-    "id": 16,
-    "name": "Eng. Mariam Ismail",
-    "type": "TA",
-    "availability": {
-      "Sunday": [{"start_time": "08:00", "end_time": "17:00"}],
-      "Monday": [{"start_time": "08:00", "end_time": "17:00"}],
-      "Wednesday": [{"start_time": "08:00", "end_time": "17:00"}],
-      "Thursday": [{"start_time": "08:00", "end_time": "17:00"}]
-    }
-  },
-  {
-    "id": 17,
-    "name": "Eng.Nada Hamdy",
-    "type": "TA",
-    "availability": {
-      "Sunday": [{"start_time": "08:00", "end_time": "17:00"}],
-      "Monday": [{"start_time": "08:00", "end_time": "17:00"}],
-      "Wednesday": [{"start_time": "08:00", "end_time": "17:00"}],
-      "Thursday": [{"start_time": "08:00", "end_time": "17:00"}]
-    }
-  },
-  {
-    "id": 18,
-    "name": "Eng. Biology",
-    "type": "TA",
-    "availability": {
-      "Sunday": [{"start_time": "08:00", "end_time": "17:00"}],
-      "Monday": [{"start_time": "08:00", "end_time": "17:00"}],
-      "Wednesday": [{"start_time": "08:00", "end_time": "17:00"}],
-      "Thursday": [{"start_time": "08:00", "end_time": "17:00"}]
-    }
-  },
-  {
-    "id": 19,
-    "name": "Prof.Biology",
-    "type": "Professor",
-    "availability": {
-      "Sunday": [{"start_time": "08:00", "end_time": "17:00"}],
-      "Monday": [{"start_time": "08:00", "end_time": "17:00"}],
-      "Wednesday": [{"start_time": "08:00", "end_time": "17:00"}],
-      "Thursday": [{"start_time": "08:00", "end_time": "17:00"}]
-    }
-  },
-  {
-    "id": 20,
-    "name": "Eng.Zahwa",
-    "type": "TA",
-    "availability": {
-      "Sunday": [{"start_time": "08:00", "end_time": "17:00"}],
-      "Monday": [{"start_time": "08:00", "end_time": "17:00"}],
-      "Wednesday": [{"start_time": "08:00", "end_time": "17:00"}],
-      "Thursday": [{"start_time": "08:00", "end_time": "17:00"}]
-    }
-  },
-  {
-    "id": 21,
-    "name": "Eng: Fatma Elsayed",
-    "type": "TA",
-    "availability": {
-      "Sunday": [{"start_time": "08:00", "end_time": "17:00"}],
-      "Monday": [{"start_time": "08:00", "end_time": "17:00"}],
-      "Wednesday": [{"start_time": "08:00", "end_time": "17:00"}],
-      "Thursday": [{"start_time": "08:00", "end_time": "17:00"}]
+      "Wednesday": [7,8]
     }
   }
 ]

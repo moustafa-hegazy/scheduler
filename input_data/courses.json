@@ -1,200 +1,138 @@
 [
   {
     "id": 1,
-    "code": "CNC 311",
-    "name": "Computer Networks (LEC)",
+    "code": "AID411",
+    "name": "AID 411 BIG Data Analytics & Visualization (LEC)",
     "required_room_type": "classroom",
     "allowed_instructors": [2],
     "session_type": "Lecture",
-    "duration": 1.5
+    "duration": 2
   },
   {
     "id": 2,
-    "code": "CNC 311",
-    "name": "Computer Networks (LAB)",
+    "code": "AID411-TUT",
+    "name": "AID 411 BIG Data Analytics & Visualization (TUT)",
+    "required_room_type": "classroom",
+    "allowed_instructors": [12, 5],
+    "session_type": "Tutorial",
+    "duration": 1
+  },
+  {
+    "id": 3,
+    "code": "AID411-LAB",
+    "name": "AID 411 BIG Data Analytics & Visualization (LAB)",
     "required_room_type": "computer_lab",
-    "allowed_instructors": [21,17,11,8],
+    "allowed_instructors": [11, 5],
     "session_type": "Lab",
-    "duration": 1.5
+    "duration": 2
   },
   {
     "id": 4,
-    "code": "CSC 317",
-    "name": "Computer Graphics and Visualization (LEC)",
-    "required_room_type": "classroom",
-    "allowed_instructors": [4],
-    "session_type": "Lecture",
-    "duration": 1.5
-  },
-  {
-    "id": 5,
-    "code": "CSC 317",
-    "name": "Computer Graphics and Visualization (LAB)",
-    "required_room_type": "computer_lab",
-    "allowed_instructors": [9,8],
-    "session_type": "Lab",
-    "duration": 1.5
-  },
-  {
-    "id": 7,
-    "code": "AID 311",
-    "name": "Mathematics of Data Science (LEC)",
-    "required_room_type": "classroom",
-    "allowed_instructors": [6],
-    "session_type": "Lecture",
-    "duration": 1.5
-  },
-  {
-    "id": 8,
-    "code": "AID 311",
-    "name": "Mathematics of Data Science (LAB)",
-    "required_room_type": "computer_lab",
-    "allowed_instructors": [15,14],
-    "session_type": "Lab",
-    "duration": 1.5
-  },
-  {
-    "id": 9,
-    "code": "AID 311",
-    "name": "Mathematics of Data Science (TUT)",
-    "required_room_type": "classroom",
-    "allowed_instructors": [15],
-    "session_type": "Tutorial",
-    "duration": 0.75
-  },
-  {
-    "id": 10,
-    "code": "BIF 311",
-    "name": "Human Biology (LEC)",
-    "required_room_type": "classroom",
-    "allowed_instructors": [19],
-    "session_type": "Lecture",
-    "duration": 1.5
-  },
-  {
-    "id": 11,
-    "code": "BIF 311",
-    "name": "Human Biology (LAB)",
-    "required_room_type": "computer_lab",
-    "allowed_instructors": [18],
-    "session_type": "Lab",
-    "duration": 0.75
-  },
-  {
-    "id": 12,
-    "code": "BIF 311",
-    "name": "Human Biology (TUT)",
-    "required_room_type": "classroom",
-    "allowed_instructors": [18],
-    "session_type": "Tutorial",
-    "duration": 0.75
-  },
-  {
-    "id": 13,
-    "code": "CNC 312",
-    "name": "Foundations of Information Systems (LEC)",
-    "required_room_type": "classroom",
-    "allowed_instructors": [4],
-    "session_type": "Lecture",
-    "duration": 1.5
-  },
-  {
-    "id": 14,
-    "code": "CNC 312",
-    "name": "Foundations of Information Systems (LAB)",
-    "required_room_type": "computer_lab",
-    "allowed_instructors": [20,11],
-    "session_type": "Lab",
-    "duration": 1.5
-  },
-  {
-    "id": 15,
-    "code": "CNC 312",
-    "name": "Foundations of Information Systems (TUT)",
-    "required_room_type": "classroom",
-    "allowed_instructors": [11,20],
-    "session_type": "Tutorial",
-    "duration": 0.75
-  },
-  {
-    "id": 16,
-    "code": "AID 312",
-    "name": "Intelligent Systems (LEC)",
-    "required_room_type": "classroom",
-    "allowed_instructors": [3],
-    "session_type": "Lecture",
-    "duration": 1.5
-  },
-  {
-    "id": 17,
-    "code": "AID 312",
-    "name": "Intelligent Systems (LAB)",
-    "required_room_type": "computer_lab",
-    "allowed_instructors": [16,10,7],
-    "session_type": "Lab",
-    "duration": 1.5
-  },
-  {
-    "id": 19,
-    "code": "CSC 314",
-    "name": "Software Modeling and Analysis (LEC)",
-    "required_room_type": "classroom",
-    "allowed_instructors": [5],
-    "session_type": "Lecture",
-    "duration": 1.5
-  },
-  {
-    "id": 20,
-    "code": "CSC 314",
-    "name": "Software Modeling and Analysis (LAB)",
-    "required_room_type": "computer_lab",
-    "allowed_instructors": [9],
-    "session_type": "Lab",
-    "duration": 1.5
-  },
-  {
-    "id": 21,
-    "code": "CSC 314",
-    "name": "Software Modeling and Analysis (TUT)",
-    "required_room_type": "classroom",
-    "allowed_instructors": [9],
-    "session_type": "Tutorial",
-    "duration": 0.75
-  },
-  {
-    "id": 22,
-    "code": "CSC 315",
-    "name": "Seminar and Project-Based Learning on CSIT (LEC)",
+    "code": "AID428",
+    "name": "AID 428 New Trends in AI (LEC)",
     "required_room_type": "classroom",
     "allowed_instructors": [1],
     "session_type": "Lecture",
-    "duration": 1.5
+    "duration": 2
   },
   {
-    "id": 23,
-    "code": "CSC 315",
-    "name": "Seminar and Project-Based Learning on CSIT (LAB)",
-    "required_room_type": "computer_lab",
-    "allowed_instructors": [20],
-    "session_type": "Lab",
-    "duration": 1.5
-  },
-  {
-    "id": 24,
-    "code": "CNC 314",
-    "name": "Database Systems (LEC)",
+    "id": 5,
+    "code": "AID428-TUT",
+    "name": "AID 428 New Trends in AI (TUT)",
     "required_room_type": "classroom",
-    "allowed_instructors": [5],
-    "session_type": "Lecture",
-    "duration": 1.5
+    "allowed_instructors": [7,14],
+    "session_type": "Tutorial",
+    "duration": 1
   },
   {
-    "id": 25,
-    "code": "CNC 314",
-    "name": "Database Systems (LAB)",
+    "id": 6,
+    "code": "AID428-LAB",
+    "name": "AID 428 New Trends in AI (LAB)",
     "required_room_type": "computer_lab",
-    "allowed_instructors": [13,12],
+    "allowed_instructors": [7, 6],
     "session_type": "Lab",
-    "duration": 1.5
+    "duration": 2
+  },
+  {
+    "id": 7,
+    "code": "AID427",
+    "name": "AID 427 New Trends in Data Science (LEC)",
+    "required_room_type": "classroom",
+    "allowed_instructors": [3],
+    "session_type": "Lecture",
+    "duration": 2
+  },
+  {
+    "id": 8,
+    "code": "AID427-TUT",
+    "name": "AID 427 New Trends in Data Science (TUT)",
+    "required_room_type": "classroom",
+    "allowed_instructors": [8, 12],
+    "session_type": "Tutorial",
+    "duration": 1
+  },
+  {
+    "id": 9,
+    "code": "AID427-LAB",
+    "name": "AID 427 New Trends in Data Science (LAB)",
+    "required_room_type": "computer_lab",
+    "allowed_instructors": [8, 12],
+    "session_type": "Lab",
+    "duration": 2
+  },
+  {
+    "id": 10,
+    "code": "AID413",
+    "name": "AID 413 Data Security (LEC)",
+    "required_room_type": "classroom",
+    "allowed_instructors": [4],
+    "session_type": "Lecture",
+    "duration": 2
+  },
+  {
+    "id": 11,
+    "code": "AID413-TUT",
+    "name": "AID 413 Data Security (TUT)",
+    "required_room_type": "classroom",
+    "allowed_instructors": [10],
+    "session_type": "Tutorial",
+    "duration": 1
+  },
+  {
+    "id": 12,
+    "code": "AID413-LAB",
+    "name": "AID 413 Data Security (LAB)",
+    "required_room_type": "computer_lab",
+    "allowed_instructors": [11, 10],
+    "session_type": "Lab",
+    "duration": 2
+  },
+  {
+    "id": 13,
+    "code": "AID321",
+    "name": "AID 321 Machine Learning (LEC)",
+    "required_room_type": "classroom",
+    "allowed_instructors": [2],
+    "session_type": "Lecture",
+    "duration": 2
+  },
+  {
+    "id": 14,
+    "code": "AID321-TUT",
+    "name": "AID 321 Machine Learning (TUT)",
+    "required_room_type": "classroom",
+    "allowed_instructors": [13, 9],
+    "session_type": "Tutorial",
+    "duration": 1
+  },
+  {
+    "id": 15,
+    "code": "AID321-LAB",
+    "name": "AID 321 Machine Learning (LAB)",
+    "required_room_type": "computer_lab",
+    "allowed_instructors": [13, 9],
+    "session_type": "Lab",
+    "duration": 2
   }
 ]
+

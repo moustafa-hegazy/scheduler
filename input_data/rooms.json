@@ -1,98 +1,136 @@
 [
   {
     "id": 1,
-    "number": "Yellow Hall",
-    "capacity": 50,
+    "number": "B10 F1.11",
+    "capacity": 30,
     "room_type": "classroom"
   },
   {
     "id": 2,
     "number": "LAB COE G09",
-    "capacity": 50,
+    "capacity": 30,
     "room_type": "computer_lab"
   },
   {
     "id": 3,
-    "number": "B7 F1.21",
-    "capacity": 50,
-    "room_type": "classroom"
+    "number": "LAB COE G08-A",
+    "capacity": 30,
+    "room_type": "computer_lab"
+  },
+  {
+    "id": 20,
+    "number": "LAB COE G08-B",
+    "capacity": 30,
+    "room_type": "computer_lab"
   },
   {
     "id": 4,
-    "number": "Green Hall",
-    "capacity": 50,
-    "room_type": "classroom"
+    "number": "B07 F1.24",
+    "capacity": 30,
+    "room_type": "computer_lab"
   },
   {
     "id": 5,
-    "number": "COE F1.03",
-    "capacity": 50,
+    "number": "B10 F1.10",
+    "capacity": 30,
     "room_type": "classroom"
   },
   {
     "id": 6,
-    "number": "LAB COE F2.16",
-    "capacity": 50,
+    "number": "LAB COE F2.17-A",
+    "capacity": 30,
+    "room_type": "computer_lab"
+  },
+  {
+    "id": 21,
+    "number": "LAB COE F2.17-B",
+    "capacity": 30,
     "room_type": "computer_lab"
   },
   {
     "id": 7,
-    "number": "LAB COE F2.17",
-    "capacity": 50,
+    "number": "LAB COE F2.16-A",
+    "capacity": 40,
+    "room_type": "computer_lab"
+  },
+  {
+    "id": 23,
+    "number": "LAB COE F2.16-B",
+    "capacity": 40,
     "room_type": "computer_lab"
   },
   {
     "id": 8,
-    "number": "B18 G14",
-    "capacity": 50,
-    "room_type": "computer_lab"
+    "number": "Theater 10",
+    "capacity": 90,
+    "room_type": "classroom"
   },
   {
     "id": 9,
-    "number": "B10 F1.10",
-    "capacity": 50,
+    "number": "COE F2.13",
+    "capacity": 90,
     "room_type": "classroom"
   },
   {
     "id": 10,
-    "number": "B10 F1.18",
-    "capacity": 50,
+    "number": "Yellow Hall",
+    "capacity": 90,
     "room_type": "classroom"
-  },
+  }
+  ,
   {
     "id": 11,
-    "number": "B18 G2",
-    "capacity": 50,
+    "number": "LAB B18 G14",
+    "capacity": 30,
     "room_type": "classroom"
   },
   {
     "id": 12,
-    "number": "B18 G05",
-    "capacity": 50,
-    "room_type": "computer_lab"
+    "number": "Theater B18 G22",
+    "capacity": 90,
+    "room_type": "classroom"
   },
   {
     "id": 13,
-    "number": "Theater B10",
-    "capacity": 50,
-    "room_type": "classroom"
+    "number": "LAB B18 G05",
+    "capacity": 30,
+    "room_type": "computer_lab"
   },
   {
     "id": 14,
-    "number": "B8 F1.06",
-    "capacity": 50,
-    "room_type": "classroom"
+    "number": "LAB B18 G01",
+    "capacity": 30,
+    "room_type": "computer_lab"
   },
   {
     "id": 15,
-    "number": "B10 F1.11",
-    "capacity": 50,
+    "number": "B18 G7",
+    "capacity": 30,
     "room_type": "classroom"
   },
   {
     "id": 16,
-    "number": "B18 G01",
-    "capacity": 50,
+    "number": "B18 G16",
+    "capacity": 30,
     "room_type": "computer_lab"
+  },
+  {
+    "id": 17,
+    "number": "B10 F1.07",
+    "capacity": 30,
+    "room_type": "classroom"
+  },
+  {
+    "id": 18,
+    "number": "B10 F1.08",
+    "capacity": 30,
+    "room_type": "classroom"
+  },
+  {
+    "id": 19,
+    "number": "Green Hall",
+    "capacity": 90,
+    "room_type": "classroom"
   }
+  
 ]

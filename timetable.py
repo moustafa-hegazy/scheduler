@@ -1,7 +1,8 @@
-from data_models import Room, Instructor, Course, Group, Class, TimeRange
-from typing import List
+# timetable.py
 import json
 import os
+from typing import List
+from data_models import Room, Instructor, Course, Group, Class, TimeRange
 
 class TimeTable:
     def __init__(self):
@@ -14,16 +15,13 @@ class TimeTable:
         self.load_data_from_files()
 
     def load_data_from_files(self):
-        # Get the directory of the current script
         base_dir = os.path.dirname(os.path.abspath(__file__))
 
-        # Build absolute paths to the JSON data files
         rooms_file = os.path.join(base_dir, 'input_data/rooms.json')
         instructors_file = os.path.join(base_dir, 'input_data/instructors.json')
         courses_file = os.path.join(base_dir, 'input_data/courses.json')
         groups_file = os.path.join(base_dir, 'input_data/groups.json')
 
-        # Load data from JSON files
         with open(rooms_file, 'r') as f:
             rooms_data = json.load(f)
         with open(instructors_file, 'r') as f:
@@ -43,21 +41,25 @@ class TimeTable:
             ))
 
         # Initialize Instructors
+        instructor_objs = []
         for instr in instructors_data:
-            availability = {}
-            for day_str, times in instr['availability'].items():
-                availability[day_str] = [
-                    TimeRange(t['start_time'], t['end_time']) for t in times
-                ]
-            self.instructors.append(Instructor(
+            availability_slots = {}
+            for day_str, slots in instr['availability'].items():
+                # slots are given as [1,2,3,4,5,6,7,8]
+                # convert to zero-based [0..7]
+                zero_based = [s-1 for s in slots]
+                availability_slots[day_str] = zero_based
+            instructor_objs.append(Instructor(
                 id=instr['id'],
                 name=instr['name'],
                 type=instr['type'],
-                availability=availability
+                availability_slots=availability_slots
             ))
+        self.instructors = instructor_objs
 
-        # Initialize Courses (now including duration)
+        # Initialize Courses
         for course in courses_data:
+            # duration given directly in slots, no conversion needed
             self.courses.append(Course(
                 id=course['id'],
                 code=course['code'],
@@ -65,7 +67,7 @@ class TimeTable:
                 required_room_type=course['required_room_type'],
                 allowed_instructors=course['allowed_instructors'],
                 session_type=course['session_type'],
-                duration=course['duration']  # Load the duration here
+                duration=course['duration']  # already in slots
             ))
 
         # Initialize Groups
