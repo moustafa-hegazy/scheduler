@@ -13,9 +13,11 @@ class GeneticAlgorithm:
         self.population_size = 100000
         self.elite_size = 100
         self.tournament_size = 15
-        self.mutation_rate = 0.20
+        self.mutation_rate     = 0.20
+        self.mutation_change   = 0.01
+        self.min_mutation_rate = 0.01
+        self.max_mutation_rate = 0.80
         self.max_generations = 500
-
         self.max_no_improve = 30         
 
         self.days_of_week = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
@@ -42,19 +44,25 @@ class GeneticAlgorithm:
         for generation in range(self.max_generations):
             with Pool(processes=12) as pool:
                 fitness_scores = pool.map(self.calculate_fitness, population)
+            # --- after fitness_scores is computed ---
             current_best_fitness = max(fitness_scores)
-            print(f"Generation {generation}: Best Fitness = {current_best_fitness}")
+            print(f"Generation {generation}: Best Fitness = {current_best_fitness:.4f}")
 
-            # Check for improvement
+            # ─── adaptive mutation ─────────────────────────────────────────────
             if current_best_fitness > best_fitness_overall:
                 best_fitness_overall = current_best_fitness
-                no_improve_count = 0  # Reset counter if improvement occurs
+                no_improve_count = 0
+                self.mutation_rate = max(self.min_mutation_rate,
+                                        self.mutation_rate - self.mutation_change)
             else:
-                no_improve_count += 1  # Increment counter if no improvement
+                no_improve_count += 1
+                self.mutation_rate = min(self.max_mutation_rate,
+                                        self.mutation_rate + self.mutation_change)
 
-            # Terminate early if no improvement for max_no_improve generations
-            if no_improve_count >= max_no_improve:
-                print(f"No improvement in {max_no_improve} consecutive generations. Terminating early.")
+            # ─── early stopping if we’re stuck ────────────────────────────────
+            if no_improve_count >= self.max_no_improve:
+                print(f"No improvement in {self.max_no_improve} consecutive generations."
+                    " Terminating early.")
                 break
 
             if current_best_fitness == 1.0:
