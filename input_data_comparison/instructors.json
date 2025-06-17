@@ -3,76 +3,76 @@
         "id": "E01",
         "name": "Manoj Kumar",
         "type": "Professor",
-        "availability_slots": {
+        "availability": {
             "Monday": [
-                0,
                 1,
                 2,
                 3,
                 4,
                 5,
                 6,
-                7
+                7,
+                8
             ],
             "Tuesday": [
-                0,
                 1,
                 2,
                 3,
                 4,
                 5,
                 6,
-                7
+                7,
+                8
             ],
             "Wednesday": [
-                0,
                 1,
                 2,
                 3,
                 4,
                 5,
                 6,
-                7
+                7,
+                8
             ],
             "Thursday": [
-                0,
                 1,
                 2,
                 3,
                 4,
                 5,
                 6,
-                7
+                7,
+                8
             ],
             "Friday": [
-                0,
                 1,
                 2,
                 3,
                 4,
                 5,
                 6,
-                7
+                7,
+                8
             ],
             "Saturday": [
-                0,
                 1,
                 2,
                 3,
                 4,
                 5,
                 6,
-                7
+                7,
+                8
             ],
             "Sunday": [
-                0,
                 1,
                 2,
                 3,
                 4,
                 5,
                 6,
-                7
+                7,
+                8
             ]
         }
     },
@@ -80,76 +80,76 @@
         "id": "E02",
         "name": "Neha Garg",
         "type": "Professor",
-        "availability_slots": {
+        "availability": {
             "Monday": [
-                0,
                 1,
                 2,
                 3,
                 4,
                 5,
                 6,
-                7
+                7,
+                8
             ],
             "Tuesday": [
-                0,
                 1,
                 2,
                 3,
                 4,
                 5,
                 6,
-                7
+                7,
+                8
             ],
             "Wednesday": [
-                0,
                 1,
                 2,
                 3,
                 4,
                 5,
                 6,
-                7
+                7,
+                8
             ],
             "Thursday": [
-                0,
                 1,
                 2,
                 3,
                 4,
                 5,
                 6,
-                7
+                7,
+                8
             ],
             "Friday": [
-                0,
                 1,
                 2,
                 3,
                 4,
                 5,
                 6,
-                7
+                7,
+                8
             ],
             "Saturday": [
-                0,
                 1,
                 2,
                 3,
                 4,
                 5,
                 6,
-                7
+                7,
+                8
             ],
             "Sunday": [
-                0,
                 1,
                 2,
                 3,
                 4,
                 5,
                 6,
-                7
+                7,
+                8
             ]
         }
     },
@@ -157,76 +157,76 @@
         "id": "E03",
         "name": "Gourav Gupta",
         "type": "Professor",
-        "availability_slots": {
+        "availability": {
             "Monday": [
-                0,
                 1,
                 2,
                 3,
                 4,
                 5,
                 6,
-                7
+                7,
+                8
             ],
             "Tuesday": [
-                0,
                 1,
                 2,
                 3,
                 4,
                 5,
                 6,
-                7
+                7,
+                8
             ],
             "Wednesday": [
-                0,
                 1,
                 2,
                 3,
                 4,
                 5,
                 6,
-                7
+                7,
+                8
             ],
             "Thursday": [
-                0,
                 1,
                 2,
                 3,
                 4,
                 5,
                 6,
-                7
+                7,
+                8
             ],
             "Friday": [
-                0,
                 1,
                 2,
                 3,
                 4,
                 5,
                 6,
-                7
+                7,
+                8
             ],
             "Saturday": [
-                0,
                 1,
                 2,
                 3,
                 4,
                 5,
                 6,
-                7
+                7,
+                8
             ],
             "Sunday": [
-                0,
                 1,
                 2,
                 3,
                 4,
                 5,
                 6,
-                7
+                7,
+                8
             ]
         }
     },
@@ -234,76 +234,76 @@
         "id": "E04",
         "name": "Prateek Srivastava",
         "type": "Professor",
-        "availability_slots": {
+        "availability": {
             "Monday": [
-                0,
                 1,
                 2,
                 3,
                 4,
                 5,
                 6,
-                7
+                7,
+                8
             ],
             "Tuesday": [
-                0,
                 1,
                 2,
                 3,
                 4,
                 5,
                 6,
-                7
+                7,
+                8
             ],
             "Wednesday": [
-                0,
                 1,
                 2,
                 3,
                 4,
                 5,
                 6,
-                7
+                7,
+                8
             ],
             "Thursday": [
-                0,
                 1,
                 2,
                 3,
                 4,
                 5,
                 6,
-                7
+                7,
+                8
             ],
             "Friday": [
-                0,
                 1,
                 2,
                 3,
                 4,
                 5,
                 6,
-                7
+                7,
+                8
             ],
             "Saturday": [
-                0,
                 1,
                 2,
                 3,
                 4,
                 5,
                 6,
-                7
+                7,
+                8
             ],
             "Sunday": [
-                0,
                 1,
                 2,
                 3,
                 4,
                 5,
                 6,
-                7
+                7,
+                8
             ]
         }
     },
@@ -311,76 +311,76 @@
         "id": "E05",
         "name": "Ajay Kumar",
         "type": "Professor",
-        "availability_slots": {
+        "availability": {
             "Monday": [
-                0,
                 1,
                 2,
                 3,
                 4,
                 5,
                 6,
-                7
+                7,
+                8
             ],
             "Tuesday": [
-                0,
                 1,
                 2,
                 3,
                 4,
                 5,
                 6,
-                7
+                7,
+                8
             ],
             "Wednesday": [
-                0,
                 1,
                 2,
                 3,
                 4,
                 5,
                 6,
-                7
+                7,
+                8
             ],
             "Thursday": [
-                0,
                 1,
                 2,
                 3,
                 4,
                 5,
                 6,
-                7
+                7,
+                8
             ],
             "Friday": [
-                0,
                 1,
                 2,
                 3,
                 4,
                 5,
                 6,
-                7
+                7,
+                8
             ],
             "Saturday": [
-                0,
                 1,
                 2,
                 3,
                 4,
                 5,
                 6,
-                7
+                7,
+                8
             ],
             "Sunday": [
-                0,
                 1,
                 2,
                 3,
                 4,
                 5,
                 6,
-                7
+                7,
+                8
             ]
         }
     }

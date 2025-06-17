@@ -1,0 +1,6 @@
+room_id,room_code,capacity,is_lab
+0,PL-001,50,0
+1,TG-001,40,0
+2,TG-002,40,0
+3,LB-101,30,1
+4,LB-102,30,1
