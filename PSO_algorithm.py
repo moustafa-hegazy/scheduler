@@ -7,7 +7,6 @@ from timetable import TimeTable
 
 class PSOalgorithm:
     """
-    Single-threaded PSO-based solver under the original GeneticAlgorithm name.
     Call run() as before to get a List[Class].
     """
     def __init__(self, timetable: TimeTable):
