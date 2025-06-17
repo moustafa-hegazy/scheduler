@@ -1,32 +1,182 @@
 [
     {
         "id": 0,
-        "number": "PL-001",
-        "capacity": 50,
+        "number": "TH-001",
+        "capacity": 70,
         "room_type": "Lecture"
     },
     {
         "id": 1,
-        "number": "TG-001",
-        "capacity": 40,
+        "number": "TH-002",
+        "capacity": 30,
         "room_type": "Lecture"
     },
     {
         "id": 2,
-        "number": "TG-002",
-        "capacity": 40,
+        "number": "TH-003",
+        "capacity": 80,
         "room_type": "Lecture"
     },
     {
         "id": 3,
-        "number": "LB-101",
+        "number": "TH-004",
+        "capacity": 80,
+        "room_type": "Lecture"
+    },
+    {
+        "id": 4,
+        "number": "TH-005",
+        "capacity": 30,
+        "room_type": "Lecture"
+    },
+    {
+        "id": 5,
+        "number": "TH-006",
+        "capacity": 80,
+        "room_type": "Lecture"
+    },
+    {
+        "id": 6,
+        "number": "TH-007",
+        "capacity": 70,
+        "room_type": "Lecture"
+    },
+    {
+        "id": 7,
+        "number": "TH-008",
+        "capacity": 50,
+        "room_type": "Lecture"
+    },
+    {
+        "id": 8,
+        "number": "TH-009",
+        "capacity": 80,
+        "room_type": "Lecture"
+    },
+    {
+        "id": 9,
+        "number": "TH-010",
+        "capacity": 50,
+        "room_type": "Lecture"
+    },
+    {
+        "id": 10,
+        "number": "TH-011",
+        "capacity": 30,
+        "room_type": "Lecture"
+    },
+    {
+        "id": 11,
+        "number": "TH-012",
+        "capacity": 50,
+        "room_type": "Lecture"
+    },
+    {
+        "id": 12,
+        "number": "TH-013",
+        "capacity": 60,
+        "room_type": "Lecture"
+    },
+    {
+        "id": 13,
+        "number": "TH-014",
+        "capacity": 40,
+        "room_type": "Lecture"
+    },
+    {
+        "id": 14,
+        "number": "TH-015",
+        "capacity": 60,
+        "room_type": "Lecture"
+    },
+    {
+        "id": 15,
+        "number": "LB-016",
         "capacity": 30,
         "room_type": "Lab"
     },
     {
-        "id": 4,
-        "number": "LB-102",
+        "id": 16,
+        "number": "LB-017",
+        "capacity": 80,
+        "room_type": "Lab"
+    },
+    {
+        "id": 17,
+        "number": "LB-018",
+        "capacity": 80,
+        "room_type": "Lab"
+    },
+    {
+        "id": 18,
+        "number": "LB-019",
+        "capacity": 50,
+        "room_type": "Lab"
+    },
+    {
+        "id": 19,
+        "number": "LB-020",
+        "capacity": 70,
+        "room_type": "Lab"
+    },
+    {
+        "id": 20,
+        "number": "LB-021",
+        "capacity": 40,
+        "room_type": "Lab"
+    },
+    {
+        "id": 21,
+        "number": "LB-022",
+        "capacity": 70,
+        "room_type": "Lab"
+    },
+    {
+        "id": 22,
+        "number": "LB-023",
         "capacity": 30,
+        "room_type": "Lab"
+    },
+    {
+        "id": 23,
+        "number": "LB-024",
+        "capacity": 80,
+        "room_type": "Lab"
+    },
+    {
+        "id": 24,
+        "number": "LB-025",
+        "capacity": 50,
+        "room_type": "Lab"
+    },
+    {
+        "id": 25,
+        "number": "LB-026",
+        "capacity": 80,
+        "room_type": "Lab"
+    },
+    {
+        "id": 26,
+        "number": "LB-027",
+        "capacity": 70,
+        "room_type": "Lab"
+    },
+    {
+        "id": 27,
+        "number": "LB-028",
+        "capacity": 70,
+        "room_type": "Lab"
+    },
+    {
+        "id": 28,
+        "number": "LB-029",
+        "capacity": 40,
+        "room_type": "Lab"
+    },
+    {
+        "id": 29,
+        "number": "LB-030",
+        "capacity": 40,
         "room_type": "Lab"
     }
 ]

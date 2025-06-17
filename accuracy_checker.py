@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import time
 from timetable import TimeTable
 from genetic_algorithm import GeneticAlgorithm
-from BSO_algorithm import BSOalgorithm
+from PSO_algorithm import PSOalgorithm
 from AntColony import AntCOlonyAlgorithm
 from schedule_printer import print_schedule
 from data_models import Room, Instructor, Course, Group, Class, TimeRange
@@ -51,7 +51,7 @@ def main():
     # Define algorithms to compare
     algorithms = {
         "GA": GeneticAlgorithm(timetable),
-        "BSO": BSOalgorithm(timetable),
+        "PSO": PSOalgorithm(timetable),
         "ACS": AntCOlonyAlgorithm(timetable)
     }
 

@@ -5,7 +5,7 @@ from data_models import TimeRange, Class
 from timetable import TimeTable
 
 
-class BSOalgorithm:
+class PSOalgorithm:
     """
     Single-threaded PSO-based solver under the original GeneticAlgorithm name.
     Call run() as before to get a List[Class].
