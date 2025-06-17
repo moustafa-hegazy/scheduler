@@ -1,6 +1,3 @@
-# genetic_algorithm.py  —  Ant Colony System (ACS) timetable solver
-# -----------------------------------------------------------------
-# Drop-in replacement for your previous GA/PSO version.
 # Implements:
 #   • pseudo-random proportional rule controlled by q0
 #   • local pheromone update after each assignment
